@@ -1,0 +1,31 @@
+{
+  "name": "contactlistproapp",
+  "version": "1.0.0",
+  "description": "build contact list using nodejs as server, mongodb as database and ajax to send request to server.",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "bootstrap": "^4.4.1",
+    "express": "^4.16.2",
+    "jquery": "^3.5.0",
+    "mongoose": "^5.9.10",
+    "ngx-bootstrap": "^5.6.1",
+    "popper.js": "^1.16.1",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mongodb",
+    "nodejs",
+    "express",
+    "bootstrap",
+    "jquery",
+    "and",
+    "ajax"
+  ],
+  "author": "hena fufa",
+  "license": "ISC"
+}

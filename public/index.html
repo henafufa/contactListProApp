@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.css">
+        <link rel="stylesheet" href="style.css">
+        <script src="bootstrap-4.4.1-dist/js/jquery-3.5.0.min.js"></script>
+        <script src="bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
+        
+        <title>Contact List</title>
+        <!-- <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"> -->
+    </head>
+    <body>
+        <div class="container">
+            <div class="col-md-9">
+            <div class="">
+                <h1>Contact List</h1>
+            </div><br><br>
+            <div id="tableArea"></div>
+        </div><br><br>
+        <div><h5 class="seeMore">see more</h5>
+            <p></p>
+        </div>
+
+        
+    </div>
+    
+    <script>
+        $(document).ready(function(){
+            console.log('page loaded successfully');
+            $(".seeMore").click(function(){
+                $('p').show();
+                console.log("see more clicked");
+                $('p').text("detail will show up here").click(function(){
+                    $(this).hide();
+                });
+                    
+            });
+            // $("td:even").css("background-color", "grey");
+            // $("td:odd").css("background-color", "#ffffff");
+        });
+    </script>
+    <script src="controllers/controller.js"></script>
+    </body>
+</html>
